@@ -6,7 +6,7 @@ Official SDKs for the [BitBabble](https://bitbabble.net) sentiment analysis API.
 
 | Package | Language | Registry |
 | --- | --- | --- |
-| [`bitbabble`](packages/javascript/) | JavaScript / TypeScript | npm |
+| [`bitbabble-sdk`](packages/javascript/) | JavaScript / TypeScript | npm |
 | [`bitbabble-sdk`](packages/python/) | Python | PyPI |
 
 ## Creating an Account
@@ -21,11 +21,11 @@ Official SDKs for the [BitBabble](https://bitbabble.net) sentiment analysis API.
 ### JavaScript / TypeScript
 
 ```bash
-npm install bitbabble
+npm install bitbabble-sdk
 ```
 
 ```typescript
-import { BitBabbleClient } from "bitbabble";
+import { BitBabbleClient } from "bitbabble-sdk";
 
 const client = new BitBabbleClient("bb_your_api_key");
 const result = await client.sentiment("I love this product!");

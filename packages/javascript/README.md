@@ -1,4 +1,4 @@
-# bitbabble
+# bitbabble-sdk
 
 Official JavaScript/TypeScript SDK for the [BitBabble](https://bitbabble.net) sentiment analysis API.
 
@@ -14,13 +14,13 @@ Official JavaScript/TypeScript SDK for the [BitBabble](https://bitbabble.net) se
 ## Installation
 
 ```bash
-npm install bitbabble
+npm install bitbabble-sdk
 ```
 
 ## Quick Start
 
 ```typescript
-import { BitBabbleClient } from "bitbabble";
+import { BitBabbleClient } from "bitbabble-sdk";
 
 const client = new BitBabbleClient("bb_your_api_key");
 const result = await client.sentiment("I love this product!");
@@ -66,7 +66,7 @@ import {
   AuthenticationError,
   InsufficientCreditsError,
   RateLimitError,
-} from "bitbabble";
+} from "bitbabble-sdk";
 
 try {
   const result = await client.sentiment("some text");
