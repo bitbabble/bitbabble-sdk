@@ -2,6 +2,15 @@
 
 Official Python SDK for the [BitBabble](https://bitbabble.net) sentiment analysis API.
 
+**Get 100 tokens free when you sign up.** Create an account at [bitbabble.net](https://bitbabble.net) to receive your API key.
+
+## Creating an Account
+
+1. Go to [bitbabble.net](https://bitbabble.net)
+2. Sign up for a new account
+3. Copy your API key from the dashboard
+4. **100 tokens** are credited automatically—no credit card required
+
 ## Installation
 
 ```bash
